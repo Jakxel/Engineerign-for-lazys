@@ -1,9 +1,10 @@
 import "../styles/Sidebar.css";
+import profileImg from '../assets/Author.png'
 
 function Sidebar () {
     return (
         <aside>
-            <img src="src/assets/Author.png" alt="" />
+            <img src={profileImg} alt="AuthorPhoto" />
             <div className="text">
                 <p>Made by</p>
                 <strong>Jakxel Islas</strong>
@@ -18,8 +19,8 @@ function Sidebar () {
                 <li><a href="">Blog</a></li>
                 <li><a href="">About</a></li>
                 <li><a href="">Contact</a></li>
-                <li><a href="">Linkedin</a></li>    
-                <li><a href="">Github</a></li>
+                <li><a href="https://www.linkedin.com/in/victor-jakxel-islas-carreon-b6a156351/">Linkedin</a></li>    
+                <li><a href="https://github.com/Jakxel">Github</a></li>
             </div>
             
             <div className="fotter">
