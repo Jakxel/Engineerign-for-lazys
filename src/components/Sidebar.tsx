@@ -10,7 +10,6 @@ function Sidebar () {
             </div>
             <div className="links">
                 <li><a href="">Home</a></li>
-                <li><a href="#recent-articles">Recent Articles</a></li>
                 <li><a href="#cs-for-lazys">CS for Lazys</a></li>
                 <li><a href="#tech-articles">Tech Articles</a></li>
                 <li><a href="#other-articles">Other Articles</a></li>

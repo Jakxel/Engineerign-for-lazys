@@ -6,7 +6,6 @@ function Header() {
             <h1>Engineering for Lazys</h1>
             <nav>
                 <ul>
-                    <li><a href="#recent-articles">Recent Articles</a></li>
                     <li><a href="#cs-for-lazys">CS for Lazys</a></li>
                     <li><a href="#tech-articles">Tech Articles</a></li>
                     <li><a href="#other-articles">Other Articles</a></li>
