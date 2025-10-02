@@ -1,0 +1,54 @@
+aside{
+    padding: 2rem;
+    width: 30%;
+    height: auto;
+}
+
+aside img{
+    width: 150px;
+    border-radius: 50%;
+}
+.text{
+    font-size:1.5rem;
+    display: flex;
+    align-items: baseline;
+    gap: 0.5rem;
+}
+
+li{
+    font-size: 1.2rem;
+    list-style: none;
+    margin: 0.5rem auto;
+}
+a{
+    color: rgb(12, 12, 12);
+}
+
+.text2{
+display: flex;
+margin: 0%;
+margin-top: 2rem;
+padding: 0%;
+gap: 0.5rem;
+}
+
+a:hover{
+    color: rgb(149, 149, 149);
+    text-decoration: none;
+}
+
+.text2 li, 
+.text2 a,
+.text2 p,
+.list-fotter,
+.list-fotter a{
+margin: 0%;
+font-size: medium;
+color: rgb(193, 193, 193);
+text-decoration: none;
+}
+
+.text2 a:hover,
+.list-fotter a:hover{
+    text-decoration: underline;
+}

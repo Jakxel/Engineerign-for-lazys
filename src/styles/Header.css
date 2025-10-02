@@ -1,0 +1,52 @@
+header{
+    background-color: rgb(153, 165, 130);
+    text-align: center;
+    transition: 1s ease-in-out;
+}
+header h1{
+    font-size: 4rem;
+    color: rgb(255, 255, 255);
+    margin-top: 5rem;
+    margin-bottom: 1rem;
+}
+
+nav {
+    width: 100%;
+    background-color: #8a9775;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0.5rem 0;
+    margin-bottom: 6rem;
+}
+
+nav ul li {
+    margin: 0 1.5rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2rem;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    transition: background 0.2s, color 0.2s;
+}
+
+nav ul li a:hover,
+nav ul li a.active {
+    color: #867b7b;
+}
+
+@media (max-width: 800px) {
+    nav{
+        display: none;
+        transition: 1s ease-in-out;
+    }
+}
