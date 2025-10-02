@@ -1,10 +1,9 @@
-import Author from "/Users/jakxel/Developer/Projects/Engineerign-for-lazys/src/assets/Author.png";
 import "../styles/Sidebar.css";
 
 function Sidebar () {
     return (
         <aside>
-            <img src={Author} alt="author-photo" />
+            <img src="src/assets/Author.png" alt="" />
             <div className="text">
                 <p>Made by</p>
                 <strong>Jakxel Islas</strong>
