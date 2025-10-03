@@ -15,10 +15,10 @@ function Sidebar () {
                 <li><a href="#tech-articles">Tech Articles</a></li>
                 <li><a href="#other-articles">Other Articles</a></li>
                 <li><a href="#all-articles">All Articles</a></li>
-                <li><a href="">My books</a></li>
-                <li><a href="">Blog</a></li>
-                <li><a href="">About</a></li>
-                <li><a href="">Contact</a></li>
+                <li><a href="https://jakxel-blog.vercel.app/books">My books</a></li>
+                <li><a href="https://jakxel-blog.vercel.app/">Blog</a></li>
+                <li><a href="https://jakxel-blog.vercel.app/about">About</a></li>
+                <li><a href="https://jakxel-blog.vercel.app/contact">Contact</a></li>
                 <li><a href="https://www.linkedin.com/in/victor-jakxel-islas-carreon-b6a156351/">Linkedin</a></li>    
                 <li><a href="https://github.com/Jakxel">Github</a></li>
             </div>
