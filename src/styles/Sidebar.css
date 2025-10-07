@@ -52,3 +52,10 @@ text-decoration: none;
 .list-fotter a:hover{
     text-decoration: underline;
 }
+
+@media (max-width: 500px) {
+    aside{
+        display: none;
+        transition: 1s ease-in-out;
+    }
+}

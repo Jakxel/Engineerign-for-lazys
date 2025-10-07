@@ -45,8 +45,28 @@ nav ul li a.active {
 }
 
 @media (max-width: 800px) {
+
+nav ul li {
+    margin: 0 0.5rem;
+}
+
     nav{
-        display: none;
         transition: 1s ease-in-out;
     }
+    nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 1rem;
+
+}
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    border-radius: 4px;
+}
+
 }
